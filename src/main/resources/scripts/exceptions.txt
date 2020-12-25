@@ -1,0 +1,1 @@
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=Producer-INVENTORY-1

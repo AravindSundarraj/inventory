@@ -1,0 +1,61 @@
+{
+  "invoiceNumber" : "I-12345",
+  "createdTime" : 1234567,
+  "customerCardNo" : 6789,
+  "totalAmount" : 34.56,
+  "numberOfItems" : 5,
+  "paymentMethods" : "CASH",
+  "taxableAmount" : 2.30,
+  "cGST" : 1.30,
+  "sGST" : 2,
+  "cESS" : "cess",
+  "storeID" : "W-230",
+  "posID" : "POS-001",
+  "cashierID" : 10,
+  "customerType" : 2,
+  "deliveryType" : "IN-SHOP",
+  "deliveryAddress" : {
+    "addressLine" : "44 Gill Ln",
+    "city" : "Iselin",
+    "state" : "NJ",
+    "pinCode" : "08830",
+    "contactNumber" : "201-838-4491"
+  },
+  "invoiceLineItems" : [
+    {
+      "itemCode" : "MLK-2",
+      "itemDescription" : "2 % Milk",
+      "itemPrice" : 2.50,
+      "itemQty" : 2,
+      "totalValue" : 5
+    },
+    {
+      "itemCode" : "ORG-CHK-DS",
+      "itemDescription" : "Organic Chicken drum stick",
+      "itemPrice" : 7,
+      "itemQty" : 2,
+      "totalValue" : 14
+    },
+    {
+      "itemCode" : "FISH-TILAPI",
+      "itemDescription" : "Tilapiya fish",
+      "itemPrice" : 18,
+      "itemQty" : 1,
+      "totalValue" : 18
+    },
+    {
+      "itemCode" : "Orange",
+      "itemDescription" : "Oranges",
+      "itemPrice" : 6.60,
+      "itemQty" : 1,
+      "totalValue" : 6.60
+    },
+    {
+      "itemCode" : "ORG-EGG",
+      "itemDescription" : "Organic brown eggs",
+      "itemPrice" : 7.50,
+      "itemQty" : 1,
+      "totalValue" : 7.50
+    }
+  ]
+}
